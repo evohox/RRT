@@ -14,14 +14,9 @@ height = 700
 canvas = Canvas(bg="white", width=width, height=height)  # график
 canvas.pack(side=LEFT, anchor=CENTER, expand=1)
 
-
 #Поле кнопок
 frame_buttons = Frame(root, relief=RAISED, borderwidth=1, background="#FFF")
 frame_buttons.pack(side=RIGHT, fill=BOTH, expand=True)
-
-# saveButton = Button(frame_buttons, text="Сохранить")
-# saveButton.pack(side=TOP, padx=5, pady=5)
-
 
 #Поставить точку старта
 def getStart():
